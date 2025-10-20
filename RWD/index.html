@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蠟筆小新介紹網站</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">蠟筆小新介紹網站</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">關於</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">服務</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">聯絡</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 主視覺區塊 -->
+    <section class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold">歡迎來到蠟筆小新介紹網站</h1>
+            <p class="lead text-muted">簡單的介紹此作品的人物</p>
+            <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                了解更多
+            </button>
+        </div>
+    </section>
+
+    <div class="modal" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">蠟筆小新維基百科</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="https://zh.wikipedia.org/zh-tw/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8" target="_blank">點我前往蠟筆小新維基百科</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 三欄內容區 -->
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">野原新之助</h5>
+                        <img src="images/shinchan.png">
+                        <p class="card-text">是個五歲的幼稚園兒童，本作大多是敘述他滑稽無厘頭的行為</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">阿呆</h5>
+                        <img src="images/dai.png">
+                        <p class="card-text">總是流鼻涕，但是他的鼻涕非常特別，可以伸縮自如</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">風間徹</h5>
+                        <img src="images/kaze.png">
+                        <p class="card-text">常自稱春日部防衛隊隊長，一星期幾天有上英語補習班習慣</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">櫻田妮妮</h5>
+                        <img src="images/nini.jpg">
+                        <p class="card-text">前期個性文靜婉約，但中後期後個性逐漸強勢霸道，唯對於小新前往她家蹭吃蹭喝的行為毫不在意。</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">佐藤正男</h5>
+                        <img src="images/nain.png" height="250px">
+                        <p class="card-text">個性膽小且很聽話，疑似有雙重人格。頭型像飯糰一樣，住家位置經常被小新記錯</p>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">野原向日葵</h5>
+                        <img src="images/aoi.jpg">
+                        <p class="card-text">超喜歡閃閃發光的東西，但若被她發現是便宜貨會立即失去興趣。與小新一樣頑皮，有時也因此被美冴教訓</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- 頁尾 -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">© 2025 我的網站. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+    
